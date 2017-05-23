@@ -9,9 +9,7 @@
 #ifndef Header_h
 #define Header_h
 #import <GoogleMaps/GoogleMaps.h>
-
-
-
+#import "GMUMarkerClustering.h"
 #import "Header.h"
 
 #endif /* Header_h */

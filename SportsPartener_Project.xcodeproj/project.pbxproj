@@ -86,6 +86,7 @@
 		70ADFD971E950680004847F6 /* DeclinedContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADFD961E950680004847F6 /* DeclinedContainerView.swift */; };
 		70ADFD991E950696004847F6 /* TimeChaneContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADFD981E950696004847F6 /* TimeChaneContainerView.swift */; };
 		70ADFD9B1E9506AF004847F6 /* ExpiredContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADFD9A1E9506AF004847F6 /* ExpiredContainerView.swift */; };
+		70D4498B1ED44213005E5A9B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D4498A1ED44213005E5A9B /* Social.framework */; };
 		70DBF49B1E8A57FC007423F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBF49A1E8A57FC007423F0 /* AppDelegate.swift */; };
 		70DBF49D1E8A57FC007423F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBF49C1E8A57FC007423F0 /* ViewController.swift */; };
 		70DBF4A01E8A57FC007423F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DBF49E1E8A57FC007423F0 /* Main.storyboard */; };
@@ -236,6 +237,7 @@
 		70ADFD961E950680004847F6 /* DeclinedContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeclinedContainerView.swift; sourceTree = "<group>"; };
 		70ADFD981E950696004847F6 /* TimeChaneContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeChaneContainerView.swift; sourceTree = "<group>"; };
 		70ADFD9A1E9506AF004847F6 /* ExpiredContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpiredContainerView.swift; sourceTree = "<group>"; };
+		70D4498A1ED44213005E5A9B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		70DBF4971E8A57FB007423F0 /* SportsPartener_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsPartener_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DBF49A1E8A57FC007423F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70DBF49C1E8A57FC007423F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70D4498B1ED44213005E5A9B /* Social.framework in Frameworks */,
 				708E86891ECEDC6E00DA2716 /* UIKit.framework in Frameworks */,
 				704EBC181EB9BB1700D926D5 /* SystemConfiguration.framework in Frameworks */,
 				704EBC161EB9BB0800D926D5 /* Security.framework in Frameworks */,
@@ -488,6 +491,7 @@
 		705904951E97A90600659DB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70D4498A1ED44213005E5A9B /* Social.framework */,
 				708E86881ECEDC6E00DA2716 /* UIKit.framework */,
 				704EBC171EB9BB1700D926D5 /* SystemConfiguration.framework */,
 				704EBC151EB9BB0800D926D5 /* Security.framework */,
